@@ -1,0 +1,9 @@
+public class SUbitwiseoperation { 
+public static void main(String[] args) { 
+int p = 4, q = 9; 
+p = p ^ q; 
+q = p ^ q; 
+p = p ^ q; 
+System.out.println("p=" + p + " q=" + q); 
+} 
+} 
